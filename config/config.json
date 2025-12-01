@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "2025",
+    "database": "Sevenxvip",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "POSTGRES_URL",
+    "dialect": "postgres",
+    "logging": false
+}
+}
