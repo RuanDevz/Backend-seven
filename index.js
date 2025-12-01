@@ -1,11 +1,10 @@
-// app.js (refatorado)
+
 const express = require('express');
 const cors = require('cors');
 const db = require('./models');
 const { Pool } = require('pg');
 
 require('dotenv').config();
-const { setupQueryMonitoring } = require('./utils/queryMonitor');
 
 const app = express();
 
