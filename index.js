@@ -15,7 +15,7 @@ app.use(cors({
   credentials: true
 }));
 
-// Bloqueio por referer/origin
+
 app.use((req, res, next) => {
   const referer = req.headers.referer || '';
   const origin = req.headers.origin || '';
